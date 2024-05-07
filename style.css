@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f7f7f7;
+    margin: 20px;
+    padding: 20px;
+    background-image: url(image.png);
+    background-size: cover; 
+    
+    background-attachment: fixed; 
+}
+
+h1 {
+    color: #0099cc; 
+}
+
+h2 {
+    color: #ff6600; /* Orange color for h2 */
+}
+
+ul {
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+ul li:first-child,
+ol li:first-child {
+    font-weight: bold; /* Bold the first item in the list */
+}
+
+ul li:nth-child(3), /* Highlight the third item in the unordered list */
+ol li:nth-child(3) { /* Highlight the third item in the ordered list */
+    background-color: #ffff00; /* Yellow background color */
+    padding: 5px; /* Add some padding for better readability */
+}
+
+ul li:nth-child(5), /* Underline the fifth item in the unordered list */
+ol li:nth-child(5) { /* Underline the fifth item in the ordered list */
+    text-decoration: underline; /* Underline the text */
+}
+
+.section {
+            border: 2px solid #333;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+        h2 {
+            border-bottom: 1px solid #333;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
